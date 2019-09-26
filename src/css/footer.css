@@ -9,6 +9,10 @@
     padding: inherit;
 }
 
+#mini p {
+    font-size: 0.5rem;
+}
+
 @media only screen and (max-width: 600px) {
 
     #footer {
@@ -19,5 +23,9 @@
     #mini {
         margin-bottom: 0;
         padding-bottom: 10%;
+    }
+
+    #mini p {
+        font-size: 1rem;
     }
   }
