@@ -16,12 +16,10 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "prebuild": "rm static -r",
     "build": "react-scripts build",
-    "postbuild": "mv build/* . && rm build -r",
     "test": "react-scripts test",
-    "predoploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -b master -d build",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
