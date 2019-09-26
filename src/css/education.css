@@ -1,22 +1,27 @@
 #education .school {
     padding: 10%;
     box-shadow: 1em 1em #0000005e;
+    margin-bottom: 5em;
+}
+
+.school h5 {
+    color: #dadada;
 }
 
 #ud {
     background-color: #1957ff;
 }
 
-#ud h2, #ud h3 {
+#ud h2, #ud h3, #ud p {
     color: #ffe607;
 }
 
-#ud p {
-    color: #e9dd97;
+#umuc {
+    background-color: #CE0E2D;
 }
 
-#ud h5 {
-    color: #dadada;
+#umuc h2, #umuc h3, #umuc p {
+    color: #ffe607;
 }
 
 @media only screen and (max-width: 600px) {
@@ -24,5 +29,6 @@
         box-shadow: none;
         padding-left: 5%;
         padding-right: 5%;
+        margin-bottom: 0;
     }
 }
