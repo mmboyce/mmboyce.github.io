@@ -1,5 +1,11 @@
 import React from 'react';
 
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLink } from '@fortawesome/free-solid-svg-icons';
+
+library.add(faLink);
+
 class Experience extends React.Component {
     render(){
         return(
@@ -8,6 +14,7 @@ class Experience extends React.Component {
                     <h1>Professional Experience</h1>
                     <div class="job" id="geoswap">
                         <a href="http://www.geoswap.com">
+                            <FontAwesomeIcon id="fa-link" icon="link"/>
                             <h2>Software Developer Intern</h2>
                             <h3>GeoSwap</h3>
                         </a>
@@ -21,6 +28,7 @@ class Experience extends React.Component {
                     <h1>Projects</h1>
                     <div class="project" id="estuary-escapade">
                         <a href="https://github.com/mmboyce/Estuary-Escapade">
+                            <FontAwesomeIcon id="fa-link" icon="link"/>
                             <h2>Estuary Escapade</h2>
                             <h3>Educational Game</h3>
                         </a>
@@ -30,6 +38,7 @@ class Experience extends React.Component {
                     </div>
                     <div class="project" id="grenzy">
                         <a href="https://github.com/mmboyce/grenzy">
+                            <FontAwesomeIcon id="fa-link" icon="link"/>
                             <h2>Grenzy</h2>
                             <h3>Smartphone Game</h3>
                         </a>
