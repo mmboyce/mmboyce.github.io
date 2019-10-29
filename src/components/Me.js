@@ -3,6 +3,7 @@ import React from 'react';
 
 const me1 = require('../images/me.jpg');
 const me2 = require('../images/me2.jpg');
+const instaLink = 'https://www.instagram.com/w.mathieu.mimms.boyce';
 
 class Me extends React.Component{
     constructor(props){
@@ -18,12 +19,14 @@ class Me extends React.Component{
 
     render(){
         return(
-            <img 
-                id="me" 
-                onMouseOver={this.handleMouseOver}
-                onMouseLeave={this.handleMouseOver}
-                src={this.state.me} 
-                alt=""/>
+            <a href={instaLink}>
+                <img 
+                    id="me" 
+                    onMouseOver={this.handleMouseOver}
+                    onMouseLeave={this.handleMouseOver}
+                    src={this.state.me} 
+                    alt=""/>
+            </a>
        );
     }
 }
