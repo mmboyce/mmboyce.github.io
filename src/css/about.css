@@ -54,5 +54,22 @@
   #about h1 {
       font-weight: bold;
       margin-left: inherit;
+      font-size: 3em;
+      text-align: center;
+  }
+
+  #email {
+      display: block;
+      margin: 0 auto;
+  }
+
+  .icons {
+      margin-top: 1em;
+      text-align: center;
+  }
+
+  #me {
+    display: block;
+    margin: 0 auto;
   }
 }
