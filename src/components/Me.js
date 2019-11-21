@@ -3,7 +3,7 @@ import React from 'react';
 
 const me1 = require('../images/me.jpg');
 const me2 = require('../images/me2.jpg');
-const instaLink = 'https://www.instagram.com/w.mathieu.mimms.boyce';
+const instaLink = 'https://www.instagram.com/wmmboyce';
 
 class Me extends React.Component{
     constructor(props){
