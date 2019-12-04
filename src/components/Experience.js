@@ -32,7 +32,7 @@ class Experience extends React.Component {
                             <h2>Estuary Escapade</h2>
                             <h3>Educational Game</h3>
                         </a>
-                        <p>Estuary Escapade is an educational game made for display at <a href="https://dnrec.alpha.delaware.gov/">DNREC's</a> offices. Its purpose is to teach children on field trips about the tasks of an Estuary Researcher and the fish researched in the Delaware Bay</p>
+                        <p>Estuary Escapade is an educational game made for display at <a href="https://dnrec.alpha.delaware.gov/">DNREC's</a> offices. Its purpose is to teach children on field trips about the tasks of an Estuary Researcher and the fish researched in the Delaware Bay.</p>
                         <p>I worked on Estuary Escapade with 4 other team members. Regular meetings were held to establish each team member's tasks for each sprint of the project. We created  Alpha, Beta, and Final presentations throughout development to show to the client. I handled much of the JavaDoc documentation, and work on the game's logic. </p>
                         <h4>November 2018 - December 2018</h4>
                     </div>
