@@ -19,7 +19,7 @@ class Me extends React.Component{
 
     render(){
         return(
-            <a href={instaLink}>
+            <a href={instaLink} target="_blank" rel="noopener noreferrer">
                 <img 
                     id="me" 
                     onMouseOver={this.handleMouseOver}
