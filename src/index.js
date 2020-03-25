@@ -1,3 +1,5 @@
+// TODO: run react-scripts eject to change build config and git the page to actually render
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 
