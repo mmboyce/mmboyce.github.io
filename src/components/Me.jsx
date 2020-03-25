@@ -11,22 +11,33 @@ class Me extends React.Component {
     super(props);
     this.state = { me: me1 };
     this.handleMouseOver = this.handleMouseOver.bind(this);
+    this.handleFocus = this.handleFocus.bind(this);
   }
 
   handleMouseOver() {
-    const currImg = this.state.me === me1 ? me2 : me1;
+    const { me } = this.state;
+    const currImg = me === me1 ? me2 : me1;
     this.setState({ me: currImg });
   }
 
+  handleFocus() {
+    this.setState({
+      me: me2,
+    });
+  }
+
   render() {
+    const { me } = this.state;
+
     return (
       <a href={instaLink} target="_blank" rel="noopener noreferrer">
         <img
           id="me"
           onMouseOver={this.handleMouseOver}
           onMouseLeave={this.handleMouseOver}
-          src={this.state.me}
-          alt=""
+          onFocus={this.handleFocus}
+          src={me}
+          alt="my face"
         />
       </a>
     );

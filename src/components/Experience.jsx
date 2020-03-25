@@ -51,9 +51,23 @@ function Experience() {
           secondLine="GeoSwap"
           duration="June 2018 - August 2018"
         >
-          <p>At GeoSwap, I developed a command line utility that deployed multiple targeted advertisements on Facebook&apos;s Audience Network in an instant.</p>
-          <p>Additionally, I created a GUI for the utility for those at the company not familiar with the CLI.</p>
-          <p>I created a wiki for the codebase so that the entire project would be sufficiently documented for future programmers. I also wrote all unit and integration tests for the tool.</p>
+          <p>
+            At GeoSwap, I developed a command line utility that deployed multiple targeted
+            {' '}
+            advertisements on Facebook&apos;s Audience Network in an instant.
+          </p>
+          <p>
+            Additionally, I created a GUI for the utility for those at the company not familiar
+            {' '}
+            with the CLI.
+          </p>
+          <p>
+            I created a wiki for the codebase so that the entire project would be sufficiently
+            {' '}
+            documented for future programmers. I also wrote all unit and integration tests for the
+            {' '}
+            tool.
+          </p>
         </Project>
       </div>
       <div id="projects">
@@ -71,13 +85,22 @@ function Experience() {
             {' '}
             <a href="https://dnrec.alpha.delaware.gov/">DNREC&apos;s</a>
             {' '}
-            offices. Its purpose is to teach children on field trips about the tasks of an Estuary Researcher and the fish researched in the Delaware Bay.
+            offices. Its purpose is to teach children on field trips about the tasks of an Estuary
+            {' '}
+            Researcher and the fish researched in the Delaware Bay.
           </p>
           <p>
-            I worked on Estuary Escapade with 4 other team members. Regular meetings were held to establish
-            each team member&apos;s tasks for each sprint of the project. We created  Alpha, Beta, and Final
-            presentations throughout development to show to the client. I handled much of the JavaDoc
-            documentation, and work on the game&apos;s logic.
+            I worked on Estuary Escapade with 4 other team members. Regular meetings were held
+            {' '}
+            to establish
+            {' '}
+            each team member&apos;s tasks for each sprint of the project. We created  Alpha, Beta,
+            {' '}
+            and Final
+            {' '}
+            presentations throughout development to show to the client. I handled much of the
+            {' '}
+            JavaDoc documentation, and work on the game&apos;s logic.
           </p>
         </Project>
         <Project
@@ -88,8 +111,20 @@ function Experience() {
           secondLine="Smartphone Game"
           duration="April 2017"
         >
-          <p>Grenzy is a game in which the player takes the role of a fish that eats smaller fish. The player must avoid being eaten by larger fish. The more fish the player eats, the greater their score.</p>
-          <p>Grenzy was developed with the MVC development principle in mind. I collaborated with another team member to design the game. I programmed the random generation of fish, as well as the method of which the powerups and fish in the game move.</p>
+          <p>
+            Grenzy is a game in which the player takes the role of a fish that eats smaller fish.
+            {' '}
+            The player must avoid being eaten by larger fish. The more fish the player eats,
+            {' '}
+            the greater their score.
+          </p>
+          <p>
+            Grenzy was developed with the MVC development principle in mind. I collaborated with
+            {' '}
+            another team member to design the game. I programmed the random generation of fish,
+            {' '}
+            as well as the method of which the powerups and fish in the game move.
+          </p>
         </Project>
       </div>
     </div>

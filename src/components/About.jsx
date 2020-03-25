@@ -20,9 +20,17 @@ function About() {
       <a href="mailto:mathieumimmsboyce@gmail.com">
         <FontAwesomeIcon id="email" icon="envelope" />
       </a>
-      <p>I am a Computer Science student at the University of Maryland Global Campus, and I'm a transfer student from the University of Delaware. I was born and raised in Willingboro, NJ, but now I live in New Castle, DE. I enjoy spending my free time by hanging out with my family, and staying active</p>
       <p>
-        I've worked for
+        I am a Computer Science student at the University of Maryland Global Campus,
+        {' '}
+        and I&apos;m a transfer student from the University of Delaware. I was born and
+        {' '}
+        raised in Willingboro, NJ, but now I live in New Castle, DE. I enjoy spending
+        {' '}
+        my free time by hanging out with my family, and staying active
+      </p>
+      <p>
+        I&apos;ve worked for
         <a href="http://www.geoswap.com/">GeoSwap</a>
         , a Wilmington, DE based startup, created multiple projects, and served as
         <b>Chapter President</b>

@@ -20,7 +20,15 @@ function Interests() {
           {' '}
           both running our social media and designing fraternity apparel.
         </p>
-        <p>Presently, I spend a lot of time being active. I like to go for runs, and lift, but whem I'm not doing that I love spending time with my friends playing pickup soccer games, dancing, or playing video games. I used to rock climb pretty frequently too, so now I'm hoping to find a good bouldering gym near me!</p>
+        <p>
+          Presently, I spend a lot of time being active. I like to go for runs, and lift, but
+          {' '}
+          when I&apos;m not doing that I love spending time with my friends playing pickup soccer
+          {' '}
+          games, dancing, or playing video games. I used to rock climb pretty frequently too,
+          {' '}
+          so now I&apos;m hoping to find a good bouldering gym near me!
+        </p>
       </div>
     </div>
   );
