@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 // I will not be linting this code that i did not write :)
 /* eslint-disable no-param-reassign */
 /* eslint-disable no-use-before-define */
