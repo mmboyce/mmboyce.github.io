@@ -13,6 +13,7 @@ function Interests() {
           <a href="http://www.sigphipsi.com/aboutAboutUs.html">The Premier Engineering Fraternity, Sigma Phi Delta.</a>
           {' '}
           I was elected
+          {' '}
           <b>President</b>
           {' '}
           of our chapter in November of 2018. Prior to my presidency, I was the
