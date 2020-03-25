@@ -10,24 +10,41 @@ library.add(fab, faTerminal);
 function Skills() {
   return (
     <div id="skills" className="section">
-      <h1>Skills</h1>
+      <h1>Toolkit</h1>
       <div id="skills-box">
-        <h2>Programming Languages &amp; Utilities</h2>
-        <h3>Fluent</h3>
         <div className="languages">
-          <FontAwesomeIcon id="language-child" icon={['fab', 'java']} />
-          <FontAwesomeIcon id="language-child" icon={['fab', 'python']} />
-          <FontAwesomeIcon id="language-child" icon={['fab', 'git']} />
-          <FontAwesomeIcon id="language-child" icon={['fab', 'html5']} />
-          <FontAwesomeIcon id="language-child" icon={['fab', 'css3']} />
-        </div>
-        <h3>Experience With</h3>
-        <div className="languages">
-          <FontAwesomeIcon id="language-child" icon={['fab', 'js-square']} />
-          <FontAwesomeIcon id="language-child" icon={['fab', 'react']} />
-          <FontAwesomeIcon icon="terminal" id="terminal" />
-          <FontAwesomeIcon id="language-child" icon={['fab', 'android']} />
-          <FontAwesomeIcon id="language-child" icon={['fab', 'php']} />
+          <span>
+            <FontAwesomeIcon id="language-child" icon={['fab', 'java']} />
+            <p>Java</p>
+          </span>
+          <span>
+            <FontAwesomeIcon id="language-child" icon={['fab', 'python']} />
+            <p>Python</p>
+          </span>
+          <span>
+            <FontAwesomeIcon id="language-child" icon={['fab', 'git']} />
+            <p>Git</p>
+          </span>
+          <span>
+            <FontAwesomeIcon id="language-child" icon={['fab', 'html5']} />
+            <p>HTML5</p>
+          </span>
+          <span>
+            <FontAwesomeIcon id="language-child" icon={['fab', 'css3']} />
+            <p>CSS3</p>
+          </span>
+          <span>
+            <FontAwesomeIcon id="language-child" icon={['fab', 'js-square']} />
+            <p>JavaScript</p>
+          </span>
+          <span>
+            <FontAwesomeIcon id="language-child" icon={['fab', 'react']} />
+            <p>ReactJS</p>
+          </span>
+          <span>
+            <FontAwesomeIcon id="language-child" icon={['fab', 'ubuntu']} />
+            <p>Ubuntu</p>
+          </span>
         </div>
       </div>
     </div>
