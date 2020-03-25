@@ -27,17 +27,21 @@ function About() {
         {' '}
         raised in Willingboro, NJ, but now I live in New Castle, DE. I enjoy spending
         {' '}
-        my free time by hanging out with my family, and staying active
+        my free time by hanging out with my family, and staying active.
       </p>
       <p>
         I&apos;ve worked for
+        {' '}
         <a href="http://www.geoswap.com/">GeoSwap</a>
         , a Wilmington, DE based startup, created multiple projects, and served as
+        {' '}
         <b>Chapter President</b>
         {' '}
         of
+        {' '}
         <i>The Premier International Fraternity of Engineers</i>
         ,
+        {' '}
         <a href="http://www.sigphipsi.com/aboutAboutUs.html">Sigma Phi Delta.</a>
       </p>
       <div className="icons">
