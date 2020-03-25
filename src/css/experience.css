@@ -7,7 +7,8 @@
 /* 
 direct child selectors are present because I don't want to lose the underline
 on links in the paragraph, just its headers. */
-.project > a, .job > a {
+
+.project>a, .job>a {
     text-decoration: none;
 }
 
@@ -29,8 +30,7 @@ on links in the paragraph, just its headers. */
     padding: 10%;
 }
 
-.job h2, .job h3,
-.project h2, .project h3 {
+.job h2, .job h3, .project h2, .project h3 {
     text-transform: uppercase;
 }
 
@@ -42,6 +42,10 @@ on links in the paragraph, just its headers. */
 
 .job h3, .project h3 {
     margin-top: 0.1em;
+}
+
+.job:not(:first-of-type) {
+    margin-top: 5em;
 }
 
 .project {
@@ -97,29 +101,23 @@ on links in the paragraph, just its headers. */
 }
 
 @media only screen and (max-width: 600px) {
-
-    #fa-link{
+    #fa-link {
         right: 0;
         top: 0;
     }
-    
     #experience {
         padding-bottom: 0;
         margin-top: 0;
     }
-
     #projects div, #professional div {
         box-shadow: none;
         padding: 5%;
     }
-
     div#projects, div#professional {
         margin: 0;
     }
-
     .job, .project {
         margin-top: 0;
         margin-bottom: 0;
     }
-    
 }
