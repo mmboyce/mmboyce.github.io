@@ -8,7 +8,7 @@
 direct child selectors are present because I don't want to lose the underline
 on links in the paragraph, just its headers. */
 
-.project>a, .job>a {
+.project>a, .job>a, .source-link {
     text-decoration: none;
 }
 
@@ -98,6 +98,80 @@ on links in the paragraph, just its headers. */
 
 #grenzy p {
     color: #203C66;
+}
+
+#weather {
+    background-color: black;
+}
+
+#weather a, #weather h4 {
+    color: white;
+}
+
+#weather a:hover, #weather p {
+    color: lightgray;
+}
+
+#to-do {
+    background-color: yellow;
+}
+
+#to-do a, #to-do h4 {
+    color: black;
+}
+
+#to-do a:hover {
+    color: red;
+}
+
+#to-do p {
+    color: gray;
+}
+
+.source-link {
+    position: relative;
+    top: -8%;
+    font-size: 100%;
+}
+
+#tic-tac-toe {
+    background-color: #D8E3A7;
+}
+
+#tic-tac-toe a, #tic-tac-toe h4 {
+    color: #535B37;
+}
+
+#tic-tac-toe a:hover {
+    color: #ff4141;
+}
+
+#tic-tac-toe p {
+    color: #323532;
+}
+
+#calculator {
+    background-color: #1B1B1B;
+}
+
+#calculator a, #calculator h4 {
+    color: #949292;
+}
+
+#calculator a:hover {
+    color: #535151;
+}
+
+#etch-a-sketch {
+    background-color: lavender;
+}
+
+#etch-a-sketch a, #etch-a-sketch h4 {
+    color: red;
+}
+
+#etch-a-sketch a:hover {
+    color: black;
 }
 
 @media only screen and (max-width: 600px) {

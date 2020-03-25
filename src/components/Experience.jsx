@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -11,15 +12,25 @@ function Experience() {
   function Project(props) {
     const {
       typeOfProject, projectID, linkToProject, firstLine, secondLine, duration, children,
+      sourceLink,
     } = props;
+
+    let sourceRef = '';
+
+    if (sourceLink !== '') {
+      sourceRef = <a href={sourceLink} className="source-link">(source code)</a>;
+    }
 
     return (
       <div className={typeOfProject} id={projectID}>
         <a href={linkToProject}>
           <FontAwesomeIcon id="fa-link" icon="link" />
-          <h2>{firstLine}</h2>
+          <h2>
+            {firstLine}
+          </h2>
           <h3>{secondLine}</h3>
         </a>
+        {sourceRef}
         {children}
         <h4>{duration}</h4>
       </div>
@@ -37,6 +48,11 @@ function Experience() {
     secondLine: PropTypes.string.isRequired,
     duration: PropTypes.string.isRequired,
     children: PropTypes.node.isRequired,
+    sourceLink: PropTypes.string,
+  };
+
+  Project.defaultProps = {
+    sourceLink: '',
   };
 
   return (
@@ -72,6 +88,86 @@ function Experience() {
       </div>
       <div id="projects">
         <h1>Projects</h1>
+        <Project
+          typeOfProject="project"
+          projectID="weather"
+          linkToProject="https://mmboyce.github.io/weather-app"
+          sourceLink="https://github.com/mmboyce/weather-app"
+          firstLine="Weather"
+          secondLine="Web App"
+          duration="Mar 2020"
+        >
+          {/* TODO: Fill out the description of this project */}
+          <p>
+            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae commodi qui, repellat omnis assumenda dicta nihil excepturi quos a consequuntur accusamus nam rerum illo tenetur impedit deserunt ducimus nulla! Sit!</span>
+            <span>In, aut quas! Obcaecati animi vitae unde quam inventore quaerat modi voluptas fugit eum. Natus voluptatibus id, assumenda tempore quasi exercitationem accusantium vitae aliquid excepturi perspiciatis esse iure eius itaque.</span>
+            <span>Dolore recusandae quidem quia saepe a amet repudiandae placeat fuga aut? Ipsam voluptas veritatis cumque atque iste dolorem modi minus, ipsum similique dicta aut inventore quasi id, hic ratione maiores.</span>
+          </p>
+        </Project>
+        <Project
+          typeOfProject="project"
+          projectID="to-do"
+          linkToProject="https://mmboyce.github.io/to-do/"
+          sourceLink="https://github.com/mmboyce/to-do"
+          firstLine="To Do"
+          secondLine="Task Tracking Web App"
+          duration="Jan 2020"
+        >
+          {/* TODO: Fill out the description of this project */}
+          <p>
+            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium beatae dolores, unde ut quod provident corrupti atque ipsa est architecto dolor deserunt voluptates veniam autem minus impedit quaerat et ducimus.</span>
+            <span>Provident numquam sint quas corporis ratione ex? Nisi iste neque porro quidem nemo magni alias, assumenda, corporis nesciunt placeat nostrum itaque quibusdam repudiandae, incidunt rerum maiores doloremque illo aut molestias?</span>
+            <span>Ipsa culpa, amet earum suscipit laboriosam minima fuga quaerat maiores recusandae eos aperiam at doloremque porro veritatis repellendus nulla vel hic tempore corporis rem omnis mollitia quo. At, fuga ea.</span>
+          </p>
+        </Project>
+        <Project
+          typeOfProject="project"
+          projectID="tic-tac-toe"
+          linkToProject="https://mmboyce.github.io/tic-tac-toe/"
+          sourceLink="https://github.com/mmboyce/tic-tac-toe"
+          firstLine="Tic-Tac-Toe"
+          secondLine="Competitive Game"
+          duration="Jan 2020"
+        >
+          {/* TODO: Fill out the description of this project */}
+          <p>
+            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium beatae dolores, unde ut quod provident corrupti atque ipsa est architecto dolor deserunt voluptates veniam autem minus impedit quaerat et ducimus.</span>
+            <span>Provident numquam sint quas corporis ratione ex? Nisi iste neque porro quidem nemo magni alias, assumenda, corporis nesciunt placeat nostrum itaque quibusdam repudiandae, incidunt rerum maiores doloremque illo aut molestias?</span>
+            <span>Ipsa culpa, amet earum suscipit laboriosam minima fuga quaerat maiores recusandae eos aperiam at doloremque porro veritatis repellendus nulla vel hic tempore corporis rem omnis mollitia quo. At, fuga ea.</span>
+          </p>
+        </Project>
+        <Project
+          typeOfProject="project"
+          projectID="calculator"
+          linkToProject="https://mmboyce.github.io/calculator/"
+          sourceLink="https://github.com/mmboyce/calculator"
+          firstLine="Calculator"
+          secondLine="Number Processing Web App"
+          duration="Jan 2020"
+        >
+          {/* TODO: Fill out the description of this project */}
+          <p>
+            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium beatae dolores, unde ut quod provident corrupti atque ipsa est architecto dolor deserunt voluptates veniam autem minus impedit quaerat et ducimus.</span>
+            <span>Provident numquam sint quas corporis ratione ex? Nisi iste neque porro quidem nemo magni alias, assumenda, corporis nesciunt placeat nostrum itaque quibusdam repudiandae, incidunt rerum maiores doloremque illo aut molestias?</span>
+            <span>Ipsa culpa, amet earum suscipit laboriosam minima fuga quaerat maiores recusandae eos aperiam at doloremque porro veritatis repellendus nulla vel hic tempore corporis rem omnis mollitia quo. At, fuga ea.</span>
+          </p>
+        </Project>
+        <Project
+          typeOfProject="project"
+          projectID="etch-a-sketch"
+          linkToProject="https://mmboyce.github.io/etch-a-sketch/"
+          sourceLink="https://github.com/mmboyce/etch-a-sketch"
+          firstLine="Etch-a-Sketch"
+          secondLine="Grid-Based Drawing Web App"
+          duration="Dec 2020"
+        >
+          {/* TODO: Fill out the description of this project */}
+          <p>
+            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium beatae dolores, unde ut quod provident corrupti atque ipsa est architecto dolor deserunt voluptates veniam autem minus impedit quaerat et ducimus.</span>
+            <span>Provident numquam sint quas corporis ratione ex? Nisi iste neque porro quidem nemo magni alias, assumenda, corporis nesciunt placeat nostrum itaque quibusdam repudiandae, incidunt rerum maiores doloremque illo aut molestias?</span>
+            <span>Ipsa culpa, amet earum suscipit laboriosam minima fuga quaerat maiores recusandae eos aperiam at doloremque porro veritatis repellendus nulla vel hic tempore corporis rem omnis mollitia quo. At, fuga ea.</span>
+          </p>
+        </Project>
         <Project
           typeOfProject="project"
           projectID="estuary-escapade"
