@@ -21,28 +21,15 @@ function About() {
         <FontAwesomeIcon id="email" icon="envelope" />
       </a>
       <p>
-        I am a Computer Science student at the University of Maryland Global Campus,
-        {' '}
-        and I&apos;m a transfer student from the University of Delaware. I was born and
-        {' '}
-        raised in Willingboro, NJ, but now I live in New Castle, DE. I enjoy spending
-        {' '}
-        my free time by hanging out with my family, and staying active.
+        I am a software developer based in New Castle, Delaware.
       </p>
       <p>
         I&apos;ve worked for
         {' '}
-        <a href="http://www.geoswap.com/">GeoSwap</a>
-        , a Wilmington, DE based startup, created multiple projects, and served as
+        <a href="https://www.linkedin.com/company/geoswap">GeoSwap</a>
+        , a Wilmington, DE based startup, and I&apos;ve created a several projects that you can
         {' '}
-        <b>Chapter President</b>
-        {' '}
-        of
-        {' '}
-        <i>The Premier International Fraternity of Engineers</i>
-        ,
-        {' '}
-        <a href="http://www.sigphipsi.com/aboutAboutUs.html">Sigma Phi Delta.</a>
+        find below!
       </p>
       <div className="icons">
         <a href="https://www.linkedin.com/in/mmboyce/" target="_blank" rel="noopener noreferrer">

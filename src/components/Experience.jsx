@@ -1,4 +1,3 @@
-/* eslint-disable max-len */
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -97,11 +96,26 @@ function Experience() {
           secondLine="Web App"
           duration="Mar 2020"
         >
-          {/* TODO: Fill out the description of this project */}
           <p>
-            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae commodi qui, repellat omnis assumenda dicta nihil excepturi quos a consequuntur accusamus nam rerum illo tenetur impedit deserunt ducimus nulla! Sit!</span>
-            <span>In, aut quas! Obcaecati animi vitae unde quam inventore quaerat modi voluptas fugit eum. Natus voluptatibus id, assumenda tempore quasi exercitationem accusantium vitae aliquid excepturi perspiciatis esse iure eius itaque.</span>
-            <span>Dolore recusandae quidem quia saepe a amet repudiandae placeat fuga aut? Ipsam voluptas veritatis cumque atque iste dolorem modi minus, ipsum similique dicta aut inventore quasi id, hic ratione maiores.</span>
+            This React based app tells the user the weather in a whatever city they enter into the
+            {' '}
+            search field. It also shows them a gif related to the weather conditions.
+          </p>
+          <p>
+            It uses the API&apos;s of both
+            {' '}
+            <a href="https://openweathermap.org/">Open Weather Map</a>
+            {' '}
+            and
+            {' '}
+            <a href="https://giphy.com/">Giphy</a>
+            {' '}
+            to fetch the data.
+          </p>
+          <p>
+            Whether you prefer to receive your weather information in Farenheit or Celsius, this
+            {' '}
+            app has got you covered
           </p>
         </Project>
         <Project
@@ -109,15 +123,28 @@ function Experience() {
           projectID="to-do"
           linkToProject="https://mmboyce.github.io/to-do/"
           sourceLink="https://github.com/mmboyce/to-do"
-          firstLine="To Do"
-          secondLine="Task Tracking Web App"
+          firstLine="ToDo"
+          secondLine="Sticky Note Web App"
           duration="Jan 2020"
         >
-          {/* TODO: Fill out the description of this project */}
           <p>
-            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium beatae dolores, unde ut quod provident corrupti atque ipsa est architecto dolor deserunt voluptates veniam autem minus impedit quaerat et ducimus.</span>
-            <span>Provident numquam sint quas corporis ratione ex? Nisi iste neque porro quidem nemo magni alias, assumenda, corporis nesciunt placeat nostrum itaque quibusdam repudiandae, incidunt rerum maiores doloremque illo aut molestias?</span>
-            <span>Ipsa culpa, amet earum suscipit laboriosam minima fuga quaerat maiores recusandae eos aperiam at doloremque porro veritatis repellendus nulla vel hic tempore corporis rem omnis mollitia quo. At, fuga ea.</span>
+            ToDo is a responsive app designed to keep track of your tasks. Using the app, the user
+            {' '}
+            creates sticky notes containing the name, description, and due date of their tasks.
+          </p>
+          <p>
+            The app can sort the notes by priority, and whether or not the tasks have been
+            {' '}
+            accomplished already. Additionally, the user can create multiple
+            {' '}
+            &quot;project boards&quot;
+            {' '}
+            to keep their notes sectioned with other relevant notes.
+            {' '}
+            Using local storage, the app keeps your entries saved for next time you use it.
+          </p>
+          <p>
+            Lastly, using responsive design, ToDo is styled for tablet, phone, and desktop use.
           </p>
         </Project>
         <Project
@@ -129,11 +156,13 @@ function Experience() {
           secondLine="Competitive Game"
           duration="Jan 2020"
         >
-          {/* TODO: Fill out the description of this project */}
           <p>
-            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium beatae dolores, unde ut quod provident corrupti atque ipsa est architecto dolor deserunt voluptates veniam autem minus impedit quaerat et ducimus.</span>
-            <span>Provident numquam sint quas corporis ratione ex? Nisi iste neque porro quidem nemo magni alias, assumenda, corporis nesciunt placeat nostrum itaque quibusdam repudiandae, incidunt rerum maiores doloremque illo aut molestias?</span>
-            <span>Ipsa culpa, amet earum suscipit laboriosam minima fuga quaerat maiores recusandae eos aperiam at doloremque porro veritatis repellendus nulla vel hic tempore corporis rem omnis mollitia quo. At, fuga ea.</span>
+            A browser version of the ultimate competitive game, Tic-Tac-Toe.
+          </p>
+          <p>
+            Grab a friend and play head-to-head and the two of you can finally settle which one of
+            {' '}
+            you is the most fierce competitor.
           </p>
         </Project>
         <Project
@@ -145,11 +174,17 @@ function Experience() {
           secondLine="Number Processing Web App"
           duration="Jan 2020"
         >
-          {/* TODO: Fill out the description of this project */}
           <p>
-            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium beatae dolores, unde ut quod provident corrupti atque ipsa est architecto dolor deserunt voluptates veniam autem minus impedit quaerat et ducimus.</span>
-            <span>Provident numquam sint quas corporis ratione ex? Nisi iste neque porro quidem nemo magni alias, assumenda, corporis nesciunt placeat nostrum itaque quibusdam repudiandae, incidunt rerum maiores doloremque illo aut molestias?</span>
-            <span>Ipsa culpa, amet earum suscipit laboriosam minima fuga quaerat maiores recusandae eos aperiam at doloremque porro veritatis repellendus nulla vel hic tempore corporis rem omnis mollitia quo. At, fuga ea.</span>
+            Calculate to your heart&apos;s desire and rid yourself of the labor of handwriting the
+            {' '}
+            solution to those pesky equations with Calculator!
+          </p>
+          <p>
+            Check it out today and type in numbers, throw in some operators, and calculate the
+            {' '}
+            result! Just be careful not to divide anything by 0. I&apos;ve heard that computers do
+            {' '}
+            not take too kindly to that sort of thing..
           </p>
         </Project>
         <Project
@@ -161,11 +196,15 @@ function Experience() {
           secondLine="Grid-Based Drawing Web App"
           duration="Dec 2020"
         >
-          {/* TODO: Fill out the description of this project */}
           <p>
-            <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium beatae dolores, unde ut quod provident corrupti atque ipsa est architecto dolor deserunt voluptates veniam autem minus impedit quaerat et ducimus.</span>
-            <span>Provident numquam sint quas corporis ratione ex? Nisi iste neque porro quidem nemo magni alias, assumenda, corporis nesciunt placeat nostrum itaque quibusdam repudiandae, incidunt rerum maiores doloremque illo aut molestias?</span>
-            <span>Ipsa culpa, amet earum suscipit laboriosam minima fuga quaerat maiores recusandae eos aperiam at doloremque porro veritatis repellendus nulla vel hic tempore corporis rem omnis mollitia quo. At, fuga ea.</span>
+            Utilize your artistic capabilities to illustrate grand designs with Etch-A-Sketch!
+          </p>
+          <p>
+            This app utilizes the mouse&apos;s coordinates, so it is best used on desktop. Hovering
+            {' '}
+            over a square colors it in, and if you are inclinded you can clear the grid and resize
+            {' '}
+            it.
           </p>
         </Project>
         <Project
