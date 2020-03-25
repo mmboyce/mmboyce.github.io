@@ -7,9 +7,11 @@ function Interests() {
       <div id="interests-box">
         <p>
           During my time at the University of Delaware I was involved with both the
+          {' '}
           <a href="https://sites.udel.edu/nsbe/">National Society of Black Engineers</a>
           {' '}
           and
+          {' '}
           <a href="http://www.sigphipsi.com/aboutAboutUs.html">The Premier Engineering Fraternity, Sigma Phi Delta.</a>
           {' '}
           I was elected
