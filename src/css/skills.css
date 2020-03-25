@@ -4,7 +4,7 @@
     margin: 6px;
 }
 
-.languages #language-child:hover{
+.languages #language-child:hover {
     color: #71bfec;
 }
 
@@ -30,10 +30,17 @@
     color: #423f3f;
 }
 
+#skills {
+    margin-bottom: 5%;
+}
+
 @media only screen and (max-width: 600px) {
-    #skills-box{
+    #skills-box {
         box-shadow: none;
         padding-left: 5%;
         padding-right: 5%;
-    } 
+    }
+    #skills {
+        margin-bottom: 0;
+    }
 }

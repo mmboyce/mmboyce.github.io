@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:700&display=swap');
 #me {
     border-radius: 50%;
     max-width: 12em;
@@ -9,7 +10,7 @@
 
 #about h1 {
     text-transform: uppercase;
-    font-family: Impacto, Impact, sans-serif, 'Arial Narrow Bold', sans-serif;
+    font-family: 'Oswald', Impacto, Impact, sans-serif, 'Arial Narrow Bold', sans-serif;
     font-weight: normal;
     font-size: 3.5em;
 }
@@ -47,29 +48,25 @@
 }
 
 @media only screen and (max-width: 600px) {
-  #about {
-      padding: 1em;
-  }
-
-  #about h1 {
-      font-weight: bold;
-      margin-left: inherit;
-      font-size: 3em;
-      text-align: center;
-  }
-
-  #email {
-      display: block;
-      margin: 0 auto;
-  }
-
-  .icons {
-      margin-top: 1em;
-      text-align: center;
-  }
-
-  #me {
-    display: block;
-    margin: 0 auto;
-  }
+    #about {
+        padding: 1em;
+    }
+    #about h1 {
+        font-weight: bold;
+        margin-left: inherit;
+        font-size: 3em;
+        text-align: center;
+    }
+    #email {
+        display: block;
+        margin: 0 auto;
+    }
+    .icons {
+        margin-top: 1em;
+        text-align: center;
+    }
+    #me {
+        display: block;
+        margin: 0 auto;
+    }
 }

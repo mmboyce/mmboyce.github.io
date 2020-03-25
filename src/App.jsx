@@ -2,7 +2,6 @@ import React from 'react';
 import About from './components/About';
 import Experience from './components/Experience';
 import Skills from './components/Skills';
-import Interests from './components/Interests';
 import Sidebar from './components/Sidebar';
 import Footer from './components/Footer';
 import 'normalize.css';
@@ -21,7 +20,6 @@ function App() {
           <Experience />
         </div>
         <Skills />
-        <Interests />
         <Footer />
       </div>
     </div>
