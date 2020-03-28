@@ -11,9 +11,7 @@ function App() {
 
       <div id="page-wrap">
         <About />
-        <div>
-          <Experience />
-        </div>
+        <Experience />
         <Skills />
         <Footer />
       </div>

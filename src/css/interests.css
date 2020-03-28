@@ -1,27 +1,10 @@
-#interests-box {
-    background-color: #616161;
-    padding: 10%;
-    box-shadow: 1em 1em #0000005e;
-}
+#interests-box {}
 
-#interests {
-    margin-bottom: 10em;
-}
+#interests {}
 
-#interests p {
-    color: #dbdada;
-}
+#interests p {}
 
 @media only screen and (max-width: 600px) {
-    #interests-box {
-        box-shadow: none;
-        padding-top: 5em;
-        padding-bottom: 5em;
-        padding-left: 5%;
-        padding-right:5%;
-    }
-
-    #interests {
-        margin-bottom: 0;
-    }
+    #interests-box {}
+    #interests {}
 }

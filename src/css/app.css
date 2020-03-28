@@ -1,59 +1,23 @@
-.section {
-  margin: auto;
-  margin-top: 10em;
-  max-width: 70%;
-  align-content: left;
-  justify-content: center;
-  min-height: 25em;
-}
+.section {}
 
-#App {
-  height: 100vh;
-}
+#App {}
 
-h1 {
-  text-transform: uppercase;
-  color: #4e4232;
-}
+h1 {}
 
-h4 {
-  color: #ff4141;
-}
+h4 {}
 
 body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-      "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-      sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: #fffff9 ;
-  }
-
-p {
-    color: #7c7c7c;
-    font-size: large;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #141f41;
 }
 
-a {
-  color: #ff4141;
-  text-decoration: none;
-  font-weight: bold;
-}
+p {}
 
-a:hover {
-  /* color: #71bfec; */
-  color: #8d2727;
-  text-decoration: underline;
-}
+a {}
 
-@media only screen and (max-width: 600px) {
-  .section {
-    max-width: 100%;
-    margin-top: 2em;
-  }
+a:hover {}
 
-  .section h1 {
-    margin-left: 0.5em;
-  }
-}
+@media only screen and (max-width: 600px) {}

@@ -1,197 +1,93 @@
-#fa-link {
-    position: relative;
-    right: 1.6em;
-    top: 1.9em;
-}
+#fa-link {}
 
 /* 
 direct child selectors are present because I don't want to lose the underline
 on links in the paragraph, just its headers. */
 
-.project>a, .job>a, .source-link {
-    text-decoration: none;
-}
+.project>a, .job>a, .source-link {}
 
-#experience {
-    padding-top: 2em;
-    padding-bottom: 2em;
-}
+#experience {}
 
-#projects {
-    margin-top: 10em;
-}
+#projects {}
 
-#professional h1, #projects h1 {
-    font-size: 2.5em;
-}
+#professional h1, #projects h1 {}
 
-#projects div, #professional div {
-    box-shadow: 1em 1em #0000005e;
-    padding: 10%;
-}
+#projects div, #professional div {}
 
-.job h2, .job h3, .project h2, .project h3 {
-    text-transform: uppercase;
-}
+.job h2, .job h3, .project h2, .project h3 {}
 
-.job h2, .project h2 {
-    font-size: 1.7em;
-    margin-bottom: 0;
-    margin-top: 0;
-}
+.job h2, .project h2 {}
 
-.job h3, .project h3 {
-    margin-top: 0.1em;
-}
+.job h3, .project h3 {}
 
-.job:not(:first-of-type) {
-    margin-top: 5em;
-}
+.job:not(:first-of-type) {}
 
-.project {
-    margin-bottom: 5em;
-}
+.project {}
 
-#geoswap {
-    background-color: darkslategray;
-}
+#geoswap {}
 
-#geoswap h4, #geoswap a {
-    color: coral;
-}
+#geoswap h4, #geoswap a {}
 
-#geoswap a:hover {
-    color: white;
-}
+#geoswap a:hover {}
 
-#geoswap p {
-    color: lightgray;
-}
+#geoswap p {}
 
-#estuary-escapade {
-    background-color: #6dbfe6;
-}
+#estuary-escapade {}
 
-#estuary-escapade h4, #estuary-escapade a {
-    color: #1944ff;
-}
+#estuary-escapade h4, #estuary-escapade a {}
 
-#estuary-escapade a:hover {
-    color: #142677;
-}
+#estuary-escapade a:hover {}
 
-#estuary-escapade p {
-    color: #49385a;
-}
+#estuary-escapade p {}
 
-#grenzy {
-    background-color: #FFD8BE;
-}
+#grenzy {}
 
-#grenzy h4, #grenzy a {
-    color: #2E7E6E;
-}
+#grenzy h4, #grenzy a {}
 
-#grenzy a:hover {
-    color: #186354;
-}
+#grenzy a:hover {}
 
-#grenzy p {
-    color: #203C66;
-}
+#grenzy p {}
 
-#weather {
-    background-color: black;
-}
+#weather {}
 
-#weather a, #weather h4 {
-    color: white;
-}
+#weather a, #weather h4 {}
 
-#weather a:hover, #weather p {
-    color: lightgray;
-}
+#weather a:hover, #weather p {}
 
-#to-do {
-    background-color: yellow;
-}
+#to-do {}
 
-#to-do a, #to-do h4 {
-    color: black;
-}
+#to-do a, #to-do h4 {}
 
-#to-do a:hover {
-    color: red;
-}
+#to-do a:hover {}
 
-#to-do p {
-    color: darkslategray;
-}
+#to-do p {}
 
-.source-link {
-    position: relative;
-    top: -8%;
-    font-size: 100%;
-}
+.source-link {}
 
-#tic-tac-toe {
-    background-color: #D8E3A7;
-}
+#tic-tac-toe {}
 
-#tic-tac-toe a, #tic-tac-toe h4 {
-    color: #535B37;
-}
+#tic-tac-toe a, #tic-tac-toe h4 {}
 
-#tic-tac-toe a:hover {
-    color: #ff4141;
-}
+#tic-tac-toe a:hover {}
 
-#tic-tac-toe p {
-    color: #323532;
-}
+#tic-tac-toe p {}
 
-#calculator {
-    background-color: #1B1B1B;
-}
+#calculator {}
 
-#calculator a, #calculator h4 {
-    color: #949292;
-}
+#calculator a, #calculator h4 {}
 
-#calculator a:hover {
-    color: #535151;
-}
+#calculator a:hover {}
 
-#etch-a-sketch {
-    background-color: lavender;
-}
+#etch-a-sketch {}
 
-#etch-a-sketch a, #etch-a-sketch h4 {
-    color: red;
-}
+#etch-a-sketch a, #etch-a-sketch h4 {}
 
-#etch-a-sketch a:hover {
-    color: black;
-}
+#etch-a-sketch a:hover {}
 
 @media only screen and (max-width: 600px) {
-    #fa-link {
-        right: 0;
-        top: 0;
-    }
-    #experience {
-        padding-bottom: 0;
-        margin-top: 0;
-    }
-    #projects div, #professional div {
-        box-shadow: none;
-        padding: 5%;
-    }
-    div#projects, div#professional {
-        margin: 0;
-    }
-    .job, .project {
-        margin-top: 0;
-        margin-bottom: 0;
-    }
+    #fa-link {}
+    #experience {}
+    #projects div, #professional div {}
+    div#projects, div#professional {}
+    .job, .project {}
 }
