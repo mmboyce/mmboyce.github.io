@@ -9,7 +9,7 @@ library.add(fab, faEnvelope);
 
 function Footer() {
   return (
-    <div id="footer">
+    <div id="footer" className="section">
       <div id="mini" className="icons">
         <a href="https://www.linkedin.com/in/mmboyce/" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={['fab', 'linkedin']} />
