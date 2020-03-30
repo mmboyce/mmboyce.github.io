@@ -14,7 +14,7 @@ function App() {
       <div id="header">
         <a href="#about-target" className="header-link">About</a>
         <a href="#professional-target" className="header-link">Experience</a>
-        <a href="#skills-target" className="header-link">Skills</a>
+        <a href="#skills" className="header-link">Skills</a>
       </div>
     );
   }
@@ -31,10 +31,6 @@ function App() {
         <Skills />
         <Footer />
       </div>
-      {/* TODO: Put something on the right side.. */}
-      {/* <div id="sidebar"> */}
-      {/*  */}
-      {/* </div> */}
     </div>
   );
 }
