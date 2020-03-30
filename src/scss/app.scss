@@ -1,0 +1,104 @@
+$bgColor: #141f41;
+$headingColor: #dddddd;
+$paragraphColor: white;
+$linkColor: #66649c;
+$linkHoverColor: white;
+
+$headerTopPadding: 4vh;
+$headerBottomPadding: 4vh;
+$headerHeight: $headerTopPadding + $headerBottomPadding;
+
+$contentWidth: 60%;
+
+$sectionPaddingLeft: 15vh;
+
+$mainFontFamily: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+  "Droid Sans", "Helvetica Neue", sans-serif;
+
+.section {
+  padding-bottom: 10vh;
+  padding-left: $sectionPaddingLeft;
+  padding-right: 16%;
+}
+
+#App {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  font-family: $mainFontFamily;
+  background-color: $bgColor;
+  padding-top: $headerHeight;
+}
+
+#header {
+  top: 0;
+  position: fixed;
+  padding-top: $headerTopPadding;
+  padding-bottom: $headerBottomPadding;
+  background-image: linear-gradient(to bottom, $bgColor 70%, #ffffff00 100%);
+  width: $contentWidth;
+  text-transform: uppercase;
+}
+
+// these two anchor stylings are to accomodate for the size of our header when
+// we jump to a section. otherwise headings would be cut off
+.anchor a {
+  position: absolute;
+}
+
+.anchor {
+  position: relative;
+  top: 0 - $headerHeight;
+}
+
+#header a:first-of-type {
+  margin-left: $sectionPaddingLeft;
+}
+
+#header a {
+  font-size: 120%;
+  margin-left: 10%;
+  text-decoration: none;
+}
+
+.header-link {
+  color: darkgray;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  width: $contentWidth;
+}
+
+h1 {
+  font-size: 225%;
+  color: $headingColor;
+}
+
+body {
+  margin: 0;
+  font-family: $mainFontFamily;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  color: $paragraphColor;
+  font-size: 115%;
+}
+
+a {
+  color: $linkColor;
+  text-decoration: none;
+}
+
+a:hover,
+.header-link:hover {
+  color: $linkHoverColor;
+}
+
+@media only screen and (max-width: 600px) {
+}
