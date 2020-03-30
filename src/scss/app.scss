@@ -10,7 +10,7 @@ $headerHeight: $headerTopPadding + $headerBottomPadding;
 
 $contentWidth: 60%;
 
-$sectionPaddingLeft: 15vh;
+$sectionPaddingLeft: 7vw;
 
 $mainFontFamily: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
   "Droid Sans", "Helvetica Neue", sans-serif;
@@ -101,4 +101,28 @@ a:hover,
 }
 
 @media only screen and (max-width: 600px) {
+  $contentWidth: 100%;
+
+  #content,
+  #header {
+    width: $contentWidth;
+  }
+
+  #header a {
+    margin-left: 8vw;
+  }
+
+  #header {
+    font-size: 90%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+  }
+
+  .section {
+    align-self: center;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    min-width: 100vw - (8vw * 2);
+  }
 }
