@@ -8,13 +8,16 @@ import 'normalize.css';
 function App() {
   return (
     <div id="App">
-
-      <div id="page-wrap">
+      <div id="content">
         <About />
         <Experience />
         <Skills />
         <Footer />
       </div>
+      {/* TODO: Put a scrollspy */}
+      {/* <div id="scroll-container"> */}
+      {/*  */}
+      {/* </div> */}
     </div>
   );
 }

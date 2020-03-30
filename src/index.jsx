@@ -3,14 +3,14 @@ import ReactDOM from 'react-dom';
 
 import App from './App';
 
-import './css/app.css';
-import './css/about.css';
-import './css/experience.css';
-import './css/education.css';
-import './css/skills.css';
-import './css/interests.css';
-import './css/sidebar.css';
-import './css/footer.css';
+import './css/app.scss';
+import './css/about.scss';
+import './css/experience.scss';
+import './css/education.scss';
+import './css/skills.scss';
+import './css/interests.scss';
+import './css/sidebar.scss';
+import './css/footer.scss';
 
 import * as serviceWorker from './serviceWorker';
 
