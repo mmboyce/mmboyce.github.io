@@ -24,17 +24,21 @@ function Experience() {
     }
 
     return (
-      <div className={typeOfProject} id={projectID}>
-        <a href={linkToProject}>
-          <FontAwesomeIcon id="fa-link" icon="link" />
-          <h2>
-            {firstLine}
-          </h2>
-          <h3>{secondLine}</h3>
-        </a>
-        {sourceRef}
-        {children}
-        <h4>{duration}</h4>
+      <div className={`${typeOfProject} section-flex`} id={projectID}>
+        <div className="section-left">
+          <a href={linkToProject}>
+            <FontAwesomeIcon id="fa-link" icon="link" />
+            <h2>
+              {firstLine}
+            </h2>
+            <h3>{secondLine}</h3>
+          </a>
+          {sourceRef}
+          <h4>{duration}</h4>
+        </div>
+        <div className="section-right">
+          {children}
+        </div>
       </div>
     );
   }
@@ -58,7 +62,7 @@ function Experience() {
   };
 
   return (
-    <div id="experience" className="section">
+    <div className="section">
       <div id="professional">
         <h1>Professional Experience</h1>
         <Project

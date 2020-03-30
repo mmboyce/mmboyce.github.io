@@ -3,28 +3,43 @@
     max-width: 12em;
 }
 
-#about {}
+#about {
+    display: inline;
+}
 
-#about h1 {}
+#about h1 {
+}
 
-#about .icons a {}
+#about .icons a {
+}
 
-#first {}
+#first {
+}
 
-#email {}
+#email {
+}
 
-#email:hover {}
+#email:hover {
+}
 
-.icons {}
+.icons {
+}
 
-.icons a {}
+.icons a {
+}
 
-.icons a:hover {}
+.icons a:hover {
+}
 
 @media only screen and (max-width: 600px) {
-    #about {}
-    #about h1 {}
-    #email {}
-    .icons {}
-    #me {}
+    #about {
+    }
+    #about h1 {
+    }
+    #email {
+    }
+    .icons {
+    }
+    #me {
+    }
 }

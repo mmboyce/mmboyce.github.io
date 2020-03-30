@@ -1,93 +1,90 @@
-#fa-link {}
+$durationColor: #b2bce6;
+
+#fa-link {
+}
 
 /* 
 direct child selectors are present because I don't want to lose the underline
 on links in the paragraph, just its headers. */
 
-.project>a, .job>a, .source-link {}
+.project > a,
+.job > a,
+.source-link {
+}
 
-#experience {}
+#experience {
+    display: inline;
+}
 
-#projects {}
+#projects {
+}
 
-#professional h1, #projects h1 {}
+#professional h1,
+#projects h1 {
+}
 
-#projects div, #professional div {}
+#projects div,
+#professional div {
+}
 
-.job h2, .job h3, .project h2, .project h3 {}
+.job h2,
+.job h3,
+.project h2,
+.project h3 {
+    text-transform: uppercase;
+}
 
-.job h2, .project h2 {}
+.job h2,
+.project h2 {
+}
 
-.job h3, .project h3 {}
+.job h3,
+.project h3 {
+    font-size: 125%;
+    font-weight: normal;
+}
 
-.job:not(:first-of-type) {}
+.job h4,
+.project h4 {
+    color: $durationColor;
+}
 
-.project {}
+.job,
+.project {
+    margin-bottom: 5vh;
+}
 
-#geoswap {}
+.job > .section-left,
+.project > .section-left {
+    max-width: 30%;
+    align-self: flex-start;
+    margin-left: 15%;
+    margin-right: 5%;
+}
 
-#geoswap h4, #geoswap a {}
+.job > .section-right,
+.project > .section-right {
+    max-width: 80%;
+}
 
-#geoswap a:hover {}
+.job:not(:first-of-type) {
+}
 
-#geoswap p {}
-
-#estuary-escapade {}
-
-#estuary-escapade h4, #estuary-escapade a {}
-
-#estuary-escapade a:hover {}
-
-#estuary-escapade p {}
-
-#grenzy {}
-
-#grenzy h4, #grenzy a {}
-
-#grenzy a:hover {}
-
-#grenzy p {}
-
-#weather {}
-
-#weather a, #weather h4 {}
-
-#weather a:hover, #weather p {}
-
-#to-do {}
-
-#to-do a, #to-do h4 {}
-
-#to-do a:hover {}
-
-#to-do p {}
-
-.source-link {}
-
-#tic-tac-toe {}
-
-#tic-tac-toe a, #tic-tac-toe h4 {}
-
-#tic-tac-toe a:hover {}
-
-#tic-tac-toe p {}
-
-#calculator {}
-
-#calculator a, #calculator h4 {}
-
-#calculator a:hover {}
-
-#etch-a-sketch {}
-
-#etch-a-sketch a, #etch-a-sketch h4 {}
-
-#etch-a-sketch a:hover {}
+.project {
+}
 
 @media only screen and (max-width: 600px) {
-    #fa-link {}
-    #experience {}
-    #projects div, #professional div {}
-    div#projects, div#professional {}
-    .job, .project {}
+    #fa-link {
+    }
+    #experience {
+    }
+    #projects div,
+    #professional div {
+    }
+    div#projects,
+    div#professional {
+    }
+    .job,
+    .project {
+    }
 }

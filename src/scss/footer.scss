@@ -1,11 +1,21 @@
-#mini {}
+#footer {
+    display: inline;
+}
 
-#mini a {}
+#mini {
+}
 
-#mini p {}
+#mini a {
+}
+
+#mini p {
+}
 
 @media only screen and (max-width: 600px) {
-    #footer {}
-    #mini {}
-    #mini p {}
+    #footer {
+    }
+    #mini {
+    }
+    #mini p {
+    }
 }
