@@ -270,6 +270,25 @@ function Experience() {
             as well as the method of which the powerups and fish in the game move.
           </p>
         </Project>
+        <Project
+          typeOfProject="project"
+          projectID="portfolio-1"
+          linkToProject="https://mmboyce.github.io/portfolio-1/"
+          firstLine="First Portfolio Website"
+          secondLine=""
+          duration="Active Jul 2019 - Mar 2020"
+        >
+          <p>My first portfolio website, which I also made in React.</p>
+          <p>
+            In March of 2020 I refactored it, as I was not using React to its fullest.
+            After modularizing its components, and improving the programming style I felt most of
+            that work was better used to change the entire design of the site, which led to this
+            one.
+          </p>
+          <p>
+            Be sure to hover over my profile picture with your mouse for a surprise!
+          </p>
+        </Project>
       </div>
     </div>
   );
