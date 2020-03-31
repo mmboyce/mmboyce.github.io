@@ -1,0 +1,159 @@
+$bgColor: #141f41;
+$headingColor: #dddddd;
+$paragraphColor: white;
+$linkColor: #ffb395;
+$linkHoverColor: white;
+
+$headerTopPadding: 4vh;
+$headerBottomPadding: 4vh;
+$headerHeight: $headerTopPadding + $headerBottomPadding;
+
+$contentWidth: 60%;
+
+$sectionPaddingLeft: 7vw;
+
+$mainFontFamily: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+  "Droid Sans", "Helvetica Neue", sans-serif;
+
+@mixin headerHover {
+  text-shadow: 0 0 8px #727171;
+  color: $linkHoverColor;
+}
+
+.section {
+  padding-bottom: 10vh;
+  padding-left: $sectionPaddingLeft;
+  padding-right: 16%;
+}
+
+.section-flex {
+  display: flex;
+  flex-direction: row;
+}
+
+.section-left {
+  width: 60%;
+}
+
+.section-right {
+  width: 40%;
+}
+
+#App {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  font-family: $mainFontFamily;
+  padding-top: $headerHeight;
+  background-color: $bgColor;
+  scroll-snap-type: y proximity;
+}
+
+#header {
+  top: 0;
+  position: fixed;
+  padding-top: $headerTopPadding;
+  padding-bottom: $headerBottomPadding;
+  background-image: linear-gradient(to bottom, $bgColor 70%, #ffffff00 100%);
+  width: 100%;
+  text-transform: uppercase;
+  ul {
+    padding-left: 0;
+  }
+  li {
+    display: inline;
+    list-style: none;
+  }
+}
+
+// these two anchor stylings are to accomodate for the size of our header when
+// we jump to a section. otherwise headings would be cut off
+.anchor {
+  position: relative;
+  top: 0 - $headerHeight;
+}
+
+#header a:first-of-type {
+  margin-left: $sectionPaddingLeft;
+}
+
+#header a {
+  font-size: 120%;
+  margin-left: 10%;
+  text-decoration: none;
+}
+
+.header-link {
+  color: darkgray;
+}
+
+.header-link:hover,
+.header-link-current a {
+  @include headerHover();
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  height: 100%;
+}
+
+h1 {
+  font-size: 225%;
+  color: $headingColor;
+}
+
+body {
+  margin: 0;
+  font-family: $mainFontFamily;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+  color: $paragraphColor;
+  font-size: 115%;
+}
+
+a {
+  color: $linkColor;
+  text-decoration: none;
+}
+
+a:hover,
+.header-link:hover {
+  color: $linkHoverColor;
+}
+
+@media only screen and (max-width: 600px) {
+  $contentWidth: 100%;
+
+  #content {
+    width: $contentWidth;
+  }
+
+  #header a {
+    margin-left: 8vw;
+  }
+
+  #header {
+    font-size: 90%;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+  }
+
+  .section {
+    align-self: center;
+    padding-left: 2vw;
+    min-width: 100vw - (8vw * 2);
+  }
+  .section-left {
+    display: inline;
+  }
+  .section-right {
+    display: inline;
+  }
+}

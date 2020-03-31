@@ -1,9 +1,12 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import PropTypes from 'prop-types';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLink } from '@fortawesome/free-solid-svg-icons';
+
+import '../scss/experience.scss';
 
 library.add(faLink);
 
@@ -21,17 +24,23 @@ function Experience() {
     }
 
     return (
-      <div className={typeOfProject} id={projectID}>
-        <a href={linkToProject}>
-          <FontAwesomeIcon id="fa-link" icon="link" />
-          <h2>
-            {firstLine}
-          </h2>
-          <h3>{secondLine}</h3>
-        </a>
-        {sourceRef}
-        {children}
-        <h4>{duration}</h4>
+      <div className={`${typeOfProject} section-flex`} id={projectID}>
+        <div className="section-left">
+          <a href={linkToProject}>
+            <div className="title-line">
+              <FontAwesomeIcon id="fa-link" icon="link" />
+              <h2>
+                {firstLine}
+              </h2>
+            </div>
+            <h3>{secondLine}</h3>
+          </a>
+          {sourceRef}
+          <h4>{duration}</h4>
+        </div>
+        <div className="section-right">
+          {children}
+        </div>
       </div>
     );
   }
@@ -55,7 +64,7 @@ function Experience() {
   };
 
   return (
-    <div id="experience" className="section">
+    <div className="section">
       <div id="professional">
         <h1>Professional Experience</h1>
         <Project

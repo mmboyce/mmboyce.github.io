@@ -1,0 +1,55 @@
+$toolColor: #ffb395;
+$toolSize: 150%;
+$toolColorHover: white;
+
+.languages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 2.5vw;
+}
+
+.tool {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: $toolColor;
+    font-size: $toolSize;
+}
+
+.tool:hover {
+    color: $toolColorHover;
+    transition: color 1s;
+}
+
+.tool p {
+    margin-left: 1.3vw;
+}
+
+/* Portrait phone */
+
+@media only screen and (max-width: 600px) {
+    #skills {
+        width: 100%;
+        padding-bottom: 0;
+        .section-left {
+            display: block;
+            width: 80%;
+            h1 {
+                margin-left: 10vw;
+            }
+            #skills-box {
+                margin-left: 8vw;
+            }
+        }
+    }
+
+    .languages {
+        margin-left: 1vw;
+        column-gap: 10vw;
+    }
+
+    $toolSize: 135%;
+    .tool {
+        font-size: $toolSize;
+    }
+}
