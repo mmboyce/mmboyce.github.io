@@ -21,7 +21,6 @@ function Footer() {
         <a href="https://github.com/mmboyce" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={['fab', 'github']} />
         </a>
-        <p> this website was created by W Mathieu Mimms-Boyce :) </p>
       </div>
     </div>
   );
