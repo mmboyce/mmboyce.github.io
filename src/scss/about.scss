@@ -34,6 +34,7 @@
 @media only screen and (max-width: 600px) {
     #about {
         margin-top: 6vh;
+        margin-left: 8vw;
     }
     #about h1 {
         text-align: center;
@@ -43,5 +44,8 @@
     }
     #me {
         margin-left: 15vw;
+    }
+    .icons a:first-of-type {
+        margin-right: 6vw;
     }
 }
