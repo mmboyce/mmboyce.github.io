@@ -11,8 +11,8 @@ library.add(fab, faTerminal);
 
 function Skills() {
   return (
-    <div className="section">
-      <div id="skills" className="section-left">
+    <div id="skills" className="section">
+      <div className="section-left">
         <h1>Toolkit</h1>
         <div id="skills-box">
           <div className="languages">

@@ -32,14 +32,27 @@ $toolColorHover: white;
 /* Portrait phone */
 
 @media only screen and (max-width: 600px) {
-}
+    #skills {
+        width: 100%;
+        .section-left {
+            display: block;
+            width: 80%;
+            h1 {
+                margin-left: 10vw;
+            }
+            #skills-box {
+                margin-left: 8vw;
+            }
+        }
+    }
 
-/* ipad in landscape */
+    .languages {
+        margin-left: 1vw;
+        column-gap: 10vw;
+    }
 
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-}
-
-/* iPad in portrait */
-
-@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+    $toolSize: 135%;
+    .tool {
+        font-size: $toolSize;
+    }
 }
