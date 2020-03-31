@@ -2,8 +2,8 @@ $durationColor: #c69770;
 $faMarginRight: 1vw;
 $faSize: 0.83vw;
 
-@mixin faMarginAdjust {
-    margin-left: $faSize + $faMarginRight;
+@mixin faMarginAdjust($faSizeValue, $faMarginRightValue) {
+    margin-left: $faSizeValue + $faMarginRightValue;
 }
 
 #fa-link {
@@ -11,12 +11,12 @@ $faSize: 0.83vw;
     font-size: $faSize;
 }
 
+.job h3,
+.project h3,
+.job h4,
+.project h4,
 .source-link {
-    @include faMarginAdjust;
-}
-
-#experience {
-    display: inline;
+    @include faMarginAdjust($faSize, $faMarginRight);
 }
 
 .job h2,
@@ -37,14 +37,12 @@ $faSize: 0.83vw;
     font-weight: normal;
     margin-top: 0;
     font-style: italic;
-    @include faMarginAdjust;
 }
 
 .job h4,
 .project h4 {
     color: $durationColor;
     align-self: baseline;
-    @include faMarginAdjust;
 }
 
 .job,
@@ -90,17 +88,47 @@ $faSize: 0.83vw;
 }
 
 @media only screen and (max-width: 600px) {
+    $faSize: 5vw;
+    $faMarginRight: 2vw;
+
     #fa-link {
+        margin-right: $faMarginRight;
+        font-size: $faSize;
     }
-    #experience {
+
+    .job h3,
+    .project h3,
+    .job h4,
+    .project h4,
+    .source-link {
+        @include faMarginAdjust($faSize, $faMarginRight);
     }
-    #projects div,
-    #professional div {
+
+    .job.section-flex,
+    .project.section-flex {
+        flex-direction: column;
+        min-width: 100vw;
     }
-    div#projects,
-    div#professional {
+
+    .job .section-left,
+    .project .section-left {
+        max-width: 100%;
+        margin-left: 2.5%;
+        margin-right: 0;
+        min-width: 100%;
+        h2 {
+            font-size: 160%;
+        }
     }
-    .job,
-    .project {
+
+    #professional h1,
+    #projects h1 {
+        margin-left: 8%;
+    }
+
+    .job .section-right,
+    .project .section-right {
+        min-width: 80%;
+        margin-left: 10%;
     }
 }
