@@ -20,7 +20,14 @@ $bottomColor: #040c27;
 @media only screen and (max-width: 600px) {
     #footer {
         width: 100%;
+        padding-top: 10vh;
+        padding-bottom: 6vh;
     }
     #mini {
+        margin-left: 15vw;
+    }
+    #mini a {
+        font-size: 300%;
+        margin-right: 15vw;
     }
 }

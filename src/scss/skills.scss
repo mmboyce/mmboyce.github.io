@@ -34,6 +34,7 @@ $toolColorHover: white;
 @media only screen and (max-width: 600px) {
     #skills {
         width: 100%;
+        padding-bottom: 0;
         .section-left {
             display: block;
             width: 80%;
