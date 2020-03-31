@@ -16,38 +16,38 @@ function Skills() {
         <h1>Toolkit</h1>
         <div id="skills-box">
           <div className="languages">
-            <span>
+            <div className="tool">
               <FontAwesomeIcon id="language-child" icon={['fab', 'java']} />
               <p>Java</p>
-            </span>
-            <span>
+            </div>
+            <div className="tool">
               <FontAwesomeIcon id="language-child" icon={['fab', 'python']} />
               <p>Python</p>
-            </span>
-            <span>
+            </div>
+            <div className="tool">
               <FontAwesomeIcon id="language-child" icon={['fab', 'git']} />
               <p>Git</p>
-            </span>
-            <span>
+            </div>
+            <div className="tool">
               <FontAwesomeIcon id="language-child" icon={['fab', 'html5']} />
               <p>HTML5</p>
-            </span>
-            <span>
+            </div>
+            <div className="tool">
               <FontAwesomeIcon id="language-child" icon={['fab', 'css3']} />
               <p>CSS3</p>
-            </span>
-            <span>
+            </div>
+            <div className="tool">
               <FontAwesomeIcon id="language-child" icon={['fab', 'js-square']} />
               <p>JavaScript</p>
-            </span>
-            <span>
+            </div>
+            <div className="tool">
               <FontAwesomeIcon id="language-child" icon={['fab', 'react']} />
               <p>ReactJS</p>
-            </span>
-            <span>
+            </div>
+            <div className="tool">
               <FontAwesomeIcon id="language-child" icon={['fab', 'ubuntu']} />
               <p>Ubuntu</p>
-            </span>
+            </div>
           </div>
         </div>
       </div>

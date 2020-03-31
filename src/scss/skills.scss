@@ -1,53 +1,45 @@
-.languages #language-child {
-}
-
-.languages #language-child:hover {
-}
-
-.languages span p {
-}
-
-.languages {
-}
-
-#terminal {
-}
-
-#terminal:hover {
-}
-
-#skills-box {
-}
-
-#skills-box h2,
-#skills-box h3 {
-}
+$toolColor: #ffb395;
+$toolSize: 150%;
+$toolColorHover: white;
 
 #skills {
     display: inline;
 }
 
+.languages {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 2.5vw;
+}
+
+.tool {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: $toolColor;
+    font-size: $toolSize;
+}
+
+.tool:hover {
+    color: $toolColorHover;
+    transition: color 1s;
+}
+
+.tool p {
+    margin-left: 1.3vw;
+}
+
 /* Portrait phone */
 
 @media only screen and (max-width: 600px) {
-    #skills-box {
-    }
-    #skills {
-    }
-    .languages {
-    }
 }
 
 /* ipad in landscape */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
-    .languages {
-    }
 }
 
 /* iPad in portrait */
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
-    .languages {
-    }
 }
