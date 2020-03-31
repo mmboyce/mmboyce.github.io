@@ -1,7 +1,7 @@
 $bgColor: #141f41;
 $headingColor: #dddddd;
 $paragraphColor: white;
-$linkColor: #66649c;
+$linkColor: #ffb395;
 $linkHoverColor: white;
 
 $headerTopPadding: 4vh;
@@ -46,6 +46,7 @@ $mainFontFamily: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxyge
   font-family: $mainFontFamily;
   padding-top: $headerHeight;
   background-color: $bgColor;
+  scroll-snap-type: y proximity;
 }
 
 #header {

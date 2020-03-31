@@ -12,13 +12,11 @@ library.add(fab, faEnvelope);
 
 function About() {
   return (
-    <div className="section">
-      <div id="about" className="section-left">
+    <div className="section" id="about-container">
+      <div id="about">
         <Me />
         <h1>
-          <span id="first">W Mathieu</span>
-          {' '}
-          Mimms-Boyce
+          W Mathieu Mimms-Boyce
         </h1>
         <a href="mailto:mathieumimmsboyce@gmail.com">
           <FontAwesomeIcon id="email" icon="envelope" />

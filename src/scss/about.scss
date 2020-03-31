@@ -1,45 +1,47 @@
 #me {
     border-radius: 50%;
     max-width: 12em;
+    box-shadow: 6px 8px 19px black;
+}
+
+#about-container {
+    height: 90vh;
+    padding-bottom: 0;
 }
 
 #about {
-    display: inline;
-}
-
-#about h1 {
+    display: block;
+    margin-top: 10vh;
 }
 
 #about .icons a {
+    font-size: 300%;
 }
 
-#first {
-}
-
-#email {
-}
-
-#email:hover {
+#about .icons a:not(:first-child) {
+    margin-left: 2.2%;
 }
 
 .icons {
+    margin-top: 6vh;
 }
 
-.icons a {
-}
-
-.icons a:hover {
+#email {
+    font-size: 220%;
+    margin-bottom: 3vh;
 }
 
 @media only screen and (max-width: 600px) {
     #about {
+        margin-top: 6vh;
     }
     #about h1 {
+        text-align: center;
     }
     #email {
-    }
-    .icons {
+        margin-left: 43%;
     }
     #me {
+        margin-left: 15vw;
     }
 }
