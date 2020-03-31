@@ -27,10 +27,12 @@ function Experience() {
       <div className={`${typeOfProject} section-flex`} id={projectID}>
         <div className="section-left">
           <a href={linkToProject}>
-            <FontAwesomeIcon id="fa-link" icon="link" />
-            <h2>
-              {firstLine}
-            </h2>
+            <div className="title-line">
+              <FontAwesomeIcon id="fa-link" icon="link" />
+              <h2>
+                {firstLine}
+              </h2>
+            </div>
             <h3>{secondLine}</h3>
           </a>
           {sourceRef}

@@ -1,15 +1,18 @@
 $durationColor: #c69770;
+$faMarginRight: 1vw;
+$faSize: 1vw;
 
-#fa-link {
+@mixin faMarginAdjust {
+    margin-left: $faSize + $faMarginRight;
 }
 
-/* 
-direct child selectors are present because I don't want to lose the underline
-on links in the paragraph, just its headers. */
+#fa-link {
+    margin-right: $faMarginRight;
+    font-size: $faSize;
+}
 
-.project > a,
-.job > a,
 .source-link {
+    @include faMarginAdjust;
 }
 
 #experience {
@@ -36,17 +39,23 @@ on links in the paragraph, just its headers. */
 
 .job h2,
 .project h2 {
+    margin-bottom: 5px;
 }
 
 .job h3,
 .project h3 {
     font-size: 125%;
     font-weight: normal;
+    margin-top: 0;
+    font-style: italic;
+    @include faMarginAdjust;
 }
 
 .job h4,
 .project h4 {
     color: $durationColor;
+    align-self: baseline;
+    @include faMarginAdjust;
 }
 
 .job,
@@ -67,10 +76,31 @@ on links in the paragraph, just its headers. */
     max-width: 80%;
 }
 
-.job:not(:first-of-type) {
+.job:first-of-type,
+.project:first-of-type {
+    margin-top: 8vh;
+}
+
+.job:last-of-type,
+.project:last-of-type {
+    margin-bottom: 8vh;
 }
 
 .project {
+}
+
+#professional {
+    margin-top: 20vh;
+}
+
+#professional > .job:first-of-type {
+    scroll-snap-align: center;
+}
+
+.title-line {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
 }
 
 @media only screen and (max-width: 600px) {
