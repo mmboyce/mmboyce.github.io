@@ -1,6 +1,6 @@
 $durationColor: #c69770;
 $faMarginRight: 1vw;
-$faSize: 1vw;
+$faSize: 0.83vw;
 
 @mixin faMarginAdjust {
     margin-left: $faSize + $faMarginRight;
