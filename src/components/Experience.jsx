@@ -203,7 +203,7 @@ function Experience() {
           sourceLink="https://github.com/mmboyce/etch-a-sketch"
           firstLine="Etch-a-Sketch"
           secondLine="Grid-Based Drawing Web App"
-          duration="Dec 2020"
+          duration="Dec 2019"
         >
           <p>
             Utilize your artistic capabilities to illustrate grand designs with Etch-A-Sketch!
