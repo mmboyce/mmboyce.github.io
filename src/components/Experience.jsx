@@ -98,6 +98,52 @@ function Experience() {
         <h1>Projects</h1>
         <Project
           typeOfProject="project"
+          projectID="pokedex"
+          linkToProject="https://4kj6w.csb.app/"
+          sourceLink="https://github.com/mmboyce/pokedex"
+          firstLine="Pokédex"
+          secondLine="Pokémon Web App"
+          duration="Jul 2020"
+        >
+          <p>
+            This app presents information about each Pokémon provided by
+            {' '}
+            <a href="https://pokeapi.co">PokéAPI</a>
+            .
+          </p>
+          <p>
+            You can enter the name of any Pokémon into the search bar at the top of the page to
+            navigate to your hearts content! If you can&apos;t remember the name of a Pokémon,
+            that&apos;s ok too, because the autocomplete will assist you greatly.
+          </p>
+          <p>
+            The app will remember where you left off too, as it keeps track of the Pokémon you were
+            viewing when your last session ended, as well as what you had entered in the search box.
+          </p>
+        </Project>
+        <Project
+          typeOfProject="project"
+          projectID="cvclip"
+          linkToProject="https://github.com/mmboyce/cvclip"
+          firstLine="CVClip"
+          secondLine="Cover Letter Python Tool"
+          duration="Jun 2020"
+        >
+          <p>
+            CVCLip is a Python command line utility that streamlines writing cover letters.
+          </p>
+          <p>
+            This solves the issue that arises in tailoring cover letters in which you may forget
+            to enter the correct name of the company and position you are applying to!
+          </p>
+          <p>
+            The utility uses a pre-written cover letter by the user with placeholders to tailor the
+            cover letter towards different companies. All the user needs to provide is the text
+            file with placeholders, and the title of the position and company.
+          </p>
+        </Project>
+        <Project
+          typeOfProject="project"
           projectID="weather"
           linkToProject="https://mmboyce.github.io/weather-app"
           sourceLink="https://github.com/mmboyce/weather-app"

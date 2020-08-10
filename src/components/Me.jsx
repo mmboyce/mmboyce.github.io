@@ -4,8 +4,6 @@ import React from 'react';
 const me1 = require('../images/me.jpg');
 const me2 = require('../images/me2.jpg');
 
-const instaLink = 'https://www.instagram.com/wmmboyce';
-
 class Me extends React.Component {
   constructor(props) {
     super(props);
@@ -30,16 +28,14 @@ class Me extends React.Component {
     const { me } = this.state;
 
     return (
-      <a href={instaLink} target="_blank" rel="noopener noreferrer">
-        <img
-          id="me"
-          onMouseOver={this.handleMouseOver}
-          onMouseLeave={this.handleMouseOver}
-          onFocus={this.handleFocus}
-          src={me}
-          alt="my face"
-        />
-      </a>
+      <img
+        id="me"
+        onMouseOver={this.handleMouseOver}
+        onMouseLeave={this.handleMouseOver}
+        onFocus={this.handleFocus}
+        src={me}
+        alt="my face"
+      />
     );
   }
 }

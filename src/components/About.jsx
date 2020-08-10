@@ -18,9 +18,6 @@ function About() {
         <h1>
           W Mathieu Mimms-Boyce
         </h1>
-        <a href="mailto:mathieumimmsboyce@gmail.com">
-          <FontAwesomeIcon id="email" icon="envelope" />
-        </a>
         <p>
           I am a software developer based in New Castle, Delaware.
         </p>
@@ -33,8 +30,8 @@ function About() {
           find below!
         </p>
         <div className="icons">
-          <a href="https://www.linkedin.com/in/mmboyce/" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={['fab', 'linkedin']} />
+          <a href="mailto:mathieumimmsboyce@gmail.com">
+            <FontAwesomeIcon icon="envelope" />
           </a>
           <a href="https://github.com/mmboyce" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={['fab', 'github']} />
