@@ -12,9 +12,6 @@ function Footer() {
   return (
     <div id="footer" className="section">
       <div id="mini" className="icons">
-        <a href="https://www.linkedin.com/in/mmboyce/" target="_blank" rel="noopener noreferrer">
-          <FontAwesomeIcon icon={['fab', 'linkedin']} />
-        </a>
         <a href="mailto:mathieumimmsboyce@gmail.com">
           <FontAwesomeIcon icon="envelope" />
         </a>
