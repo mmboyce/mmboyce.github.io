@@ -1,23 +1,6 @@
-<<<<<<< HEAD
 {
   "short_name": "Portfolio",
-  "name": "W Mathieu Mimms-Boyce",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-}
-=======
-{
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "name": "W Mathieu Mimms-Boyce Portfolio",
   "icons": [
     {
       "src": "favicon.ico",
@@ -40,4 +23,3 @@
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
->>>>>>> 5bcdb37cad3b0af95d56f43e308dd6ff692e1dc2
