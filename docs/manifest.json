@@ -1,7 +1,7 @@
-<<<<<<< HEAD
+<<<<<<< HEAD:manifest.json
 {
-  "short_name": "Portfolio",
-  "name": "W Mathieu Mimms-Boyce",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
@@ -40,4 +40,4 @@
   "theme_color": "#000000",
   "background_color": "#ffffff"
 }
->>>>>>> 5bcdb37cad3b0af95d56f43e308dd6ff692e1dc2
+>>>>>>> 5bcdb37cad3b0af95d56f43e308dd6ff692e1dc2:docs/manifest.json

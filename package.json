@@ -1,9 +1,10 @@
 {
-  "name": "mmboyce",
-  "version": "2.0.0",
+  "name": "mmboyce.github.io",
+  "version": "0.1.0",
   "private": true,
   "homepage": "https://mmboyce.github.io",
   "dependencies": {
+<<<<<<< HEAD
     "@babel/core": "7.9.0",
     "@fortawesome/fontawesome-svg-core": "^1.2.28",
     "@fortawesome/free-brands-svg-icons": "^5.13.0",
@@ -75,9 +76,28 @@
     "test": "node scripts/test.js",
     "predeploy": "npm run build",
     "deploy": "gh-pages -b master -d build"
+=======
+    "@testing-library/jest-dom": "^5.12.0",
+    "@testing-library/react": "^11.2.6",
+    "@testing-library/user-event": "^12.8.3",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "web-vitals": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+>>>>>>> 5bcdb37cad3b0af95d56f43e308dd6ff692e1dc2
   },
   "eslintConfig": {
-    "extends": "react-app"
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
   },
   "browserslist": {
     "production": [

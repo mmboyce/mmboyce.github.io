@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ---
 permalink: /index.html
 ---
@@ -70,3 +71,10 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+# This just redirects to my new website (not hosted on github)
+
+You can check out my old mmboyce.github.io sites on my page!
+
+[New site here](https://mmboyce.com)
+>>>>>>> 5bcdb37cad3b0af95d56f43e308dd6ff692e1dc2
